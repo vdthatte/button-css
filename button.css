@@ -1,6 +1,6 @@
 .omni-rent-button-red{
     font-size: 18px;
-    background: red;
+    background: #E81E24;
     border-style: solid;
     border-width: 1px;
     border-color: #fff;
@@ -11,22 +11,34 @@
     border-radius: 5px;
     color: #fff;
     text-decoration: none;
+    transition: 0.3s;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+  .redButton:hover{
+    background-color: #C90F14;
+    transition: 0.3s;
+  }
+
 .omni-rent-button-white{
     font-size: 18px;
-    background: white;
+    background: #F2F4F5;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(206, 206, 206);
+    border-color: #E9ECEE;
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     border-radius: 5px;
     text-decoration: none;
-    color: black;
+    color: #E81E24;
+    transition: 0.3s;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+  .whiteButton:hover{
+    background-color: #E9ECEE;
+    transition: 0.3s;
+    color: #C90F14;
+  }
